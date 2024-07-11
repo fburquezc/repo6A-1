@@ -4,7 +4,7 @@ $valores = file_get_contents('php://input');
 $data = json_decode($valores, true);
 //print_r($data);
 
-$conn = new mysqli("localhost","root","brim2524","6A");
+$conn = new mysqli("localhost","root","xxx","6A");
 
 if($conn->connect_errno){
     echo "Fallo al conectar a Mysql: ". $conn->connect_error;

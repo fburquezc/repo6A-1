@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("localhost", "root", "brim2524", "6A");
+$conn = new mysqli("localhost", "root", "xxx", "6A");
 
 if ($conn->connect_errno) {
     echo "Fallo al conectar a Mysql: " . $conn->connect_error;
